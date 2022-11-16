@@ -17,7 +17,7 @@ def run_bot():
             if (guild.name == '\U0001d610\'\U0001d62e \U0001d62a\U0001d62f'):
                 for channel in guild.channels:
                     if channel.name == 'text_channel_mcgee':
-                        await channel.send('tembstb') # channel.send('***GONG***')
+                        await channel.send('***GONG***')
 
         await bot.close()
 
